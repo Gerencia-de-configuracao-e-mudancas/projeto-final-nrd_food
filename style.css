@@ -95,6 +95,17 @@ main img {
     margin-bottom: 40px;
 }
 
+footer {
+    padding: 0.5%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color:#F2D6BA;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
 /* Responsividade */
 @media screen and (max-width: 768px) {
     .right-itens {
