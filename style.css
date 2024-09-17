@@ -1,3 +1,100 @@
+
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: #333; /* Cor de fundo para combinar com a borda preta da imagem */
+    color: white; /* Ajustar cor do texto */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #F2D6BA;
+}
+
+#logo {
+    width: 120%;
+    max-width: 100px;
+    height: auto;
+}
+
+.left-itens {
+    display: flex;
+    max-width: max-content;
+}
+
+.right-itens {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.itens {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 25px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    min-height: calc(100vh - 60px); 
+    padding: 20px;
+    background-color: #eeb380;
+}
+
+main div {
+    flex: 1; 
+    padding: 20px; 
+}
+
+main div:first-child {
+    max-width: 60%; /* O texto ocupará até 60% do espaço */
+}
+
+main div:last-child {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+main p {
+    color: black;
+    font-size: 1.3em;
+    text-align: left; 
+    line-height: 1.6;
+}
+
+main img {
+    width: 100%; 
+    max-width: 55%; 
+    height: auto;
+    margin-left: 40px; 
+    margin-bottom: 40px;
+}
+
 footer {
     padding: 0.5%;
     position: relative;
@@ -8,3 +105,53 @@ footer {
     font-size: 16px;
     color: black;
 }
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .right-itens {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F2D6BA;
+        position: absolute;
+        top: 60px; /* Ajuste dependendo da altura do header */
+        left: 0;
+    }
+
+    .right-itens.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #logo {
+        max-width: 100px;
+    }
+
+    .itens {
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    .nav-item {
+        margin: 15px 0;
+        width: 100%;
+        text-align: center; 
+    }
+    main {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    main img {
+        width: 100%; 
+        max-width: 70%; 
+        height: auto;
+        margin-left: 40px; 
+        margin-bottom: 40px;
+    }
+}
+
