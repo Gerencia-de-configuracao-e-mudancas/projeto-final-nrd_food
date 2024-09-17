@@ -1,3 +1,4 @@
+
 *{
     font-family: Arial, sans-serif;
     margin: 0;
@@ -55,6 +56,44 @@
     cursor: pointer;
     color: black;
 }
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    min-height: calc(100vh - 60px); 
+    padding: 20px;
+    background-color: #eeb380;
+}
+
+main div {
+    flex: 1; 
+    padding: 20px; 
+}
+
+main div:first-child {
+    max-width: 60%; /* O texto ocupará até 60% do espaço */
+}
+
+main div:last-child {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+main p {
+    color: black;
+    font-size: 1.3em;
+    text-align: left; 
+    line-height: 1.6;
+}
+
+main img {
+    width: 100%; 
+    max-width: 55%; 
+    height: auto;
+    margin-left: 40px; 
+    margin-bottom: 40px;
+}
 
 /* Responsividade */
 @media screen and (max-width: 768px) {
@@ -104,3 +143,4 @@
         margin-bottom: 40px;
     }
 }
+
