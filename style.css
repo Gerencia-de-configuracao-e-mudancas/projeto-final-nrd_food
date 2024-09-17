@@ -55,3 +55,52 @@
     cursor: pointer;
     color: black;
 }
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .right-itens {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F2D6BA;
+        position: absolute;
+        top: 60px; /* Ajuste dependendo da altura do header */
+        left: 0;
+    }
+
+    .right-itens.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #logo {
+        max-width: 100px;
+    }
+
+    .itens {
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    .nav-item {
+        margin: 15px 0;
+        width: 100%;
+        text-align: center; 
+    }
+    main {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    main img {
+        width: 100%; 
+        max-width: 70%; 
+        height: auto;
+        margin-left: 40px; 
+        margin-bottom: 40px;
+    }
+}
