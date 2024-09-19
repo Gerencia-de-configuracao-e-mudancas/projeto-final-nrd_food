@@ -95,6 +95,11 @@ main img {
     margin-bottom: 40px;
 }
 
+a:hover{
+    background-color: white;
+    padding: 20px;
+}
+
 footer {
     padding: 0.5%;
     position: relative;
