@@ -10,12 +10,12 @@ O Site foi desenvolvido por:
 
 **Ana Beatriz Queiroz**
 
-    Entre em contato :p
+  <a href="https://www.instagram.com/_beeeatrix/" target="_blank"> <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 
 **Darkiane de Lima**
 
-    Entre em contato :p
+  <a href="https://www.instagram.com/darkiane_lima/" target="_blank"> <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 
 **Gustavo Lopes** 
 
-    Entre em contato :p
+  <a href="https://www.instagram.com/gugalolps/" target="_blank"> <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
